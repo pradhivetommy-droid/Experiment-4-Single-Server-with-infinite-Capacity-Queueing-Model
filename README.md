@@ -25,6 +25,7 @@ If the arrival of materials follow poisson process with mean interval time 12 se
 # ref no:25014743
 # slot no:3P1-1
 # date: 11/12/2025
+```
 # Program
 #exp no:4
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs)"))
@@ -51,6 +52,7 @@ if(lam<mu):
 else:
   print("Warning! Objects overflow will happen in the conveyer")
   print("----------------------------------------")
+  ```
 # collab link:
 https://colab.research.google.com/drive/1aWCYyD8mQCQN4-jNcI4n99cAijyWMC2E?usp=sharing
 # Output
